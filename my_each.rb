@@ -8,6 +8,6 @@ end
 
 collection
 else
-  my_each
+  my_each(tas)
   end
 end

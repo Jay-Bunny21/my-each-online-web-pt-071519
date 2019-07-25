@@ -5,5 +5,5 @@ while i < words.length
  collection << yield(words[i])
   i += 1
 end
-collection
+my_each
 end

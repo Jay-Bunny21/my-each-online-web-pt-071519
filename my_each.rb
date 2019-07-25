@@ -1,3 +1,4 @@
-def my_each # put argument(s) here
-  
+def my_each(words)
+  if block_given?
+    i=
 end

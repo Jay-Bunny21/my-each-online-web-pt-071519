@@ -1,10 +1,13 @@
 def my_each(words)
- i = 0
+if  i = 0
  collection = []
 while i < words.length  
  collection << yield(words[i])
   i += 1
 end
-collection
-end
 
+collection
+else
+  my_each
+end
+end

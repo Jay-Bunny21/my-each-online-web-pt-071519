@@ -1,6 +1,10 @@
 def my_each(words)
-  if block_given?
+ 
     counter = 0
 while counter < words.length
-  yield(array[])
+  yield(words[counter])
+  counter += 1
+end
+
+my_each
 end

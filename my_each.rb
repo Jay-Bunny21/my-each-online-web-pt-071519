@@ -1,13 +1,8 @@
 def my_each(words)
-if  i = 0
- collection = []
+  i = 0
 while i < words.length  
- collection << yield(words[i])
+  yield(words[i])
   i += 1
 end
-
-collection
-else
-  my_each(tas)
-  end
+words
 end
